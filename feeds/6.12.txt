@@ -1,5 +1,15 @@
-src-git packages https://github.com/immortalwrt/packages.git
-src-git luci https://github.com/immortalwrt/luci.git
-src-git routing https://git.openwrt.org/feed/routing.git
-src-git telephony https://git.openwrt.org/feed/telephony.git
-src-git video https://github.com/openwrt/video.git
+# src-git packages https://github.com/immortalwrt/packages.git
+# src-git luci https://github.com/immortalwrt/luci.git
+# src-git routing https://git.openwrt.org/feed/routing.git
+# src-git telephony https://git.openwrt.org/feed/telephony.git
+# src-git video https://github.com/openwrt/video.git
+src-git packages https://gitee.com/gabel/packages.git;istoreos-24.10
+src-git luci https://gitee.com/gabel/luci.git;istoreos-24.10
+src-git routing https://gitee.com/gabel/routing.git;openwrt-24.10
+src-git telephony https://gitee.com/gabel/telephony.git;openwrt-24.10
+# istore
+src-git store https://gitee.com/gabel/istore.git;main
+# argon, etc.
+src-git third https://gitee.com/gabel/openwrt-third.git;main
+src-git video https://gitee.com/gabel/video.git
+
